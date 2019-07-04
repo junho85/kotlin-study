@@ -1,1 +1,1 @@
-# study-kotlin
+# kotlin-study
