@@ -1,4 +1,4 @@
-package kr.pe.junho85.kia.part1
+package kr.pe.junho85.kia.part1.two_4
 
 fun isLetter(c: Char) = c in 'a'..'z' || c in 'A'..'Z'
 fun isNotDigit(c: Char) = c !in '0'..'0'

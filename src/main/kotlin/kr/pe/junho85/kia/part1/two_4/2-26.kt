@@ -1,4 +1,4 @@
-package kr.pe.junho85.kia.part1
+package kr.pe.junho85.kia.part1.two_4
 
 fun recognize(c: Char) = when (c) {
     in '0'..'9' -> "It's a digit!"

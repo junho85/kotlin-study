@@ -1,4 +1,4 @@
-package kr.pe.junho85.kia.part1
+package kr.pe.junho85.kia.part1.two_4
 
 // 2.22
 fun fizzBuzz(i: Int) = when {
