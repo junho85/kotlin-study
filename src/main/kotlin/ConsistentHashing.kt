@@ -5,7 +5,7 @@
 //        "joony" to 4,
 //        "hogle" to 5)
 //
-//fun main(args: Array<String>) {
+//fun demo.main(args: Array<String>) {
 //    val s: Any = ConsistentHash()
 //
 //    s.addNode(node = "A")

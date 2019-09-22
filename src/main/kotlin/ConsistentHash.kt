@@ -20,5 +20,5 @@
 //
 //}
 //
-//fun main(args: Array<String>) {
+//fun demo.main(args: Array<String>) {
 //}

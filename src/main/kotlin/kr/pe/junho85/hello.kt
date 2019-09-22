@@ -1,7 +1,5 @@
 package kr.pe.junho85
 
-import java.util.*
-
 fun sum(a: Int, b: Int): Int {
     return a + b
 }
