@@ -1,4 +1,4 @@
-package kr.pe.junho85.kia.part1.two_4
+package kr.pe.junho85.kia.part1.ch2.two_4
 
 import java.util.*
 
