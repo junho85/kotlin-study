@@ -1,4 +1,4 @@
-package kr.pe.junho85.kia.part1.ch3.three_3
+package kr.pe.junho85.kia.part1.ch3.three_6.six_11
 
 import java.lang.IllegalArgumentException
 
@@ -7,7 +7,7 @@ class User(val id: Int, val name: String, val address: String)
 fun saveUser(user: User) {
     if (user.name.isEmpty()) {
         throw IllegalArgumentException(
-            "Can't sav euser ${user.id}: empty Name")
+            "Can't save user ${user.id}: empty Name")
     }
     if (user.address.isEmpty()) {
         throw IllegalArgumentException(
