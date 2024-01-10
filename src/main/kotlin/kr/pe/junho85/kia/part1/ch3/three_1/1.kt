@@ -17,5 +17,5 @@ fun main() {
     println(strings.last()) // fourteenth
 
     val numbers = setOf(1, 14, 2)
-    println(numbers.max()) // 14
+    println(numbers.maxOf { it }) // 14
 }

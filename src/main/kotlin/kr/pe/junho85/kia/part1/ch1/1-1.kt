@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
         Person("영희"),
         Person("철수", age = 29)
     )
-    val oldest = persons.maxBy { it.age ?: 0 }
+    val oldest = persons.maxOf { it.age ?: 0 }
     println("나이가 가장 많은 사람: $oldest") // 나이가 가장 많은 사람: Person(name=철수, age=29)
 }
 
