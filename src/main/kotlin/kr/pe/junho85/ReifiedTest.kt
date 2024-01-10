@@ -16,7 +16,7 @@ fun <T> doSomething(someValue: T, type: Class<T>) {
     // 그래서 실행하면 에러가 발생함. 왜냐하면 타입을 알 수 없기 때문.
 
     // 에러: Cannot use 'T' as reified type parameter. Use a class instead.
-    println("Doing something with type: ${T::class.simpleName}")
+//    println("Doing something with type: ${T::class.simpleName}")
 }
 
 // inline 함수와 reified 키워드를 함께 사용하면 T type에 대해서 런타임에 접근할 수 있게 해줌
